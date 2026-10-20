@@ -1,0 +1,1345 @@
+[
+  {
+    "id": "RX-001",
+    "name": "Northstar Commerce (fictional)",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Shopify",
+      "GitHub",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Shopify"
+    ],
+    "inventory_age_days": 30,
+    "renewal_days": 60,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "GitHub",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether GitHub requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-002",
+    "name": "Meridian Systems (fictional)",
+    "segment": "Software",
+    "observed_tools": [
+      "GitHub",
+      "Jira",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "GitHub"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 30,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-003",
+    "name": "Atlas Retail Group (fictional)",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Shopify",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "Shopify"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 120,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-004",
+    "name": "Fictional Account 004",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "GitHub",
+      "Shopify",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "Shopify",
+      "Azure DevOps"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 60,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-005",
+    "name": "Fictional Account 005",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Shopify",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Shopify"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 60,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-006",
+    "name": "Fictional Account 006",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "BigCommerce",
+      "Azure DevOps",
+      "Confluence",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Azure DevOps",
+      "Jira"
+    ],
+    "inventory_age_days": 30,
+    "renewal_days": 60,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Confluence",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-007",
+    "name": "Fictional Account 007",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Confluence",
+      "BigCommerce",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "Confluence",
+      "Azure DevOps"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 220,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "BigCommerce",
+      "owner": "Account owner",
+      "next_step": "Validate whether BigCommerce is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-008",
+    "name": "Fictional Account 008",
+    "segment": "Software",
+    "observed_tools": [
+      "BigCommerce",
+      "Azure DevOps",
+      "GitHub",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "BigCommerce",
+      "Confluence"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 220,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Validate whether GitHub is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-009",
+    "name": "Fictional Account 009",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "Shopify",
+      "Jira",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "Azure DevOps",
+      "Jira"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 60,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Shopify",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-010",
+    "name": "Fictional Account 010",
+    "segment": "Commerce",
+    "observed_tools": [
+      "GitHub",
+      "Confluence",
+      "Shopify"
+    ],
+    "protected_tools": [
+      "Confluence",
+      "Shopify"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 30,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-011",
+    "name": "Fictional Account 011",
+    "segment": "Professional services",
+    "observed_tools": [
+      "Confluence",
+      "Shopify",
+      "GitHub",
+      "BigCommerce"
+    ],
+    "protected_tools": [
+      "Confluence",
+      "Shopify"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 150,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Validate whether GitHub is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-012",
+    "name": "Fictional Account 012",
+    "segment": "Software",
+    "observed_tools": [
+      "Jira",
+      "Shopify",
+      "BigCommerce"
+    ],
+    "protected_tools": [
+      "BigCommerce",
+      "Shopify"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 60,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "Jira",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether Jira requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-013",
+    "name": "Fictional Account 013",
+    "segment": "Professional services",
+    "observed_tools": [
+      "GitHub",
+      "Jira"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "Jira"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 150,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-014",
+    "name": "Fictional Account 014",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Jira",
+      "Shopify",
+      "GitHub",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "Shopify",
+      "Confluence",
+      "GitHub",
+      "Jira"
+    ],
+    "inventory_age_days": 30,
+    "renewal_days": 150,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-015",
+    "name": "Fictional Account 015",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Confluence",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Jira",
+      "Confluence"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 90,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-016",
+    "name": "Fictional Account 016",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Confluence",
+      "GitHub",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "Confluence"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 30,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "GitHub",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether GitHub requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-017",
+    "name": "Fictional Account 017",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Azure DevOps",
+      "BigCommerce"
+    ],
+    "protected_tools": [
+      "BigCommerce",
+      "Azure DevOps"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 90,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-018",
+    "name": "Fictional Account 018",
+    "segment": "Commerce",
+    "observed_tools": [
+      "GitHub",
+      "Shopify"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "Shopify"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 60,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-019",
+    "name": "Fictional Account 019",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "Confluence",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Jira"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 150,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "Confluence",
+      "owner": "Account owner",
+      "next_step": "Validate whether Confluence is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-020",
+    "name": "Fictional Account 020",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Shopify",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Jira"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 220,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "Shopify",
+      "owner": "Account owner",
+      "next_step": "Validate whether Shopify is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-021",
+    "name": "Fictional Account 021",
+    "segment": "Professional services",
+    "observed_tools": [
+      "Azure DevOps",
+      "Confluence",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "Azure DevOps",
+      "Confluence"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 60,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-022",
+    "name": "Fictional Account 022",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Jira",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "Jira"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 220,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Validate whether GitHub is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-023",
+    "name": "Fictional Account 023",
+    "segment": "Software",
+    "observed_tools": [
+      "Jira",
+      "BigCommerce",
+      "Azure DevOps",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "Azure DevOps",
+      "Confluence",
+      "BigCommerce",
+      "Jira"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 220,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-024",
+    "name": "Fictional Account 024",
+    "segment": "Software",
+    "observed_tools": [
+      "GitHub",
+      "Azure DevOps",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Jira",
+      "Azure DevOps"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 90,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-025",
+    "name": "Fictional Account 025",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Confluence",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "Confluence"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 60,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-026",
+    "name": "Fictional Account 026",
+    "segment": "Commerce",
+    "observed_tools": [
+      "BigCommerce",
+      "GitHub",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "BigCommerce"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 90,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Azure DevOps",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-027",
+    "name": "Fictional Account 027",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Jira",
+      "BigCommerce",
+      "Confluence",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "BigCommerce"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 90,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-028",
+    "name": "Fictional Account 028",
+    "segment": "Professional services",
+    "observed_tools": [
+      "Shopify",
+      "Azure DevOps",
+      "BigCommerce"
+    ],
+    "protected_tools": [
+      "Azure DevOps",
+      "Shopify",
+      "BigCommerce"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 150,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-029",
+    "name": "Fictional Account 029",
+    "segment": "Software",
+    "observed_tools": [
+      "Confluence",
+      "Jira",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "BigCommerce"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 150,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-030",
+    "name": "Fictional Account 030",
+    "segment": "Software",
+    "observed_tools": [
+      "BigCommerce",
+      "Azure DevOps",
+      "Shopify"
+    ],
+    "protected_tools": [
+      "Shopify"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 60,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "Azure DevOps",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether Azure DevOps requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-031",
+    "name": "Fictional Account 031",
+    "segment": "Professional services",
+    "observed_tools": [
+      "BigCommerce",
+      "GitHub",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "BigCommerce"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 60,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-032",
+    "name": "Fictional Account 032",
+    "segment": "Software",
+    "observed_tools": [
+      "GitHub",
+      "Confluence",
+      "BigCommerce"
+    ],
+    "protected_tools": [
+      "Confluence",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 220,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-033",
+    "name": "Fictional Account 033",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Azure DevOps",
+      "GitHub",
+      "Shopify",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "Shopify",
+      "Confluence"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 90,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-034",
+    "name": "Fictional Account 034",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "Shopify",
+      "BigCommerce",
+      "Jira",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "BigCommerce"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 60,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-035",
+    "name": "Fictional Account 035",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Jira",
+      "Shopify"
+    ],
+    "protected_tools": [
+      "Shopify"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 90,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-036",
+    "name": "Fictional Account 036",
+    "segment": "Software",
+    "observed_tools": [
+      "BigCommerce",
+      "Azure DevOps",
+      "Shopify"
+    ],
+    "protected_tools": [
+      "Shopify",
+      "BigCommerce"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 30,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "Azure DevOps",
+      "owner": "Account owner",
+      "next_step": "Validate whether Azure DevOps is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-037",
+    "name": "Fictional Account 037",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Confluence",
+      "Shopify",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Confluence"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 30,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-038",
+    "name": "Fictional Account 038",
+    "segment": "Software",
+    "observed_tools": [
+      "Shopify",
+      "Jira"
+    ],
+    "protected_tools": [
+      "Shopify"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 30,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "Jira",
+      "owner": "Account owner",
+      "next_step": "Validate whether Jira is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-039",
+    "name": "Fictional Account 039",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "Azure DevOps",
+      "Shopify",
+      "GitHub",
+      "Jira"
+    ],
+    "protected_tools": [
+      "GitHub"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 150,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-040",
+    "name": "Fictional Account 040",
+    "segment": "Software",
+    "observed_tools": [
+      "Jira",
+      "Confluence",
+      "BigCommerce"
+    ],
+    "protected_tools": [
+      "BigCommerce",
+      "Confluence"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 150,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Jira",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-041",
+    "name": "Fictional Account 041",
+    "segment": "Software",
+    "observed_tools": [
+      "Jira",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "Jira"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 90,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "Confluence",
+      "owner": "Account owner",
+      "next_step": "Validate whether Confluence is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-042",
+    "name": "Fictional Account 042",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Shopify",
+      "Azure DevOps",
+      "Confluence",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "GitHub",
+      "Shopify"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 220,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Confluence",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-043",
+    "name": "Fictional Account 043",
+    "segment": "Professional services",
+    "observed_tools": [
+      "Jira",
+      "Shopify",
+      "BigCommerce",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "BigCommerce",
+      "Jira",
+      "Shopify"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 90,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Azure DevOps",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-044",
+    "name": "Fictional Account 044",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "GitHub",
+      "Shopify",
+      "Azure DevOps",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "Confluence"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 220,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Validate whether GitHub is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-045",
+    "name": "Fictional Account 045",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "GitHub",
+      "Shopify",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "Azure DevOps",
+      "GitHub",
+      "Shopify"
+    ],
+    "inventory_age_days": 110,
+    "renewal_days": 60,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-046",
+    "name": "Fictional Account 046",
+    "segment": "Software",
+    "observed_tools": [
+      "GitHub",
+      "BigCommerce",
+      "Confluence"
+    ],
+    "protected_tools": [
+      "Confluence",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 60,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  },
+  {
+    "id": "RX-047",
+    "name": "Fictional Account 047",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Confluence",
+      "BigCommerce",
+      "Shopify"
+    ],
+    "protected_tools": [
+      "BigCommerce",
+      "Confluence"
+    ],
+    "inventory_age_days": 180,
+    "renewal_days": 220,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Shopify",
+      "owner": "Customer Success",
+      "next_step": "Revalidate application inventory and coverage status",
+      "why": "Information may be outdated"
+    }
+  },
+  {
+    "id": "RX-048",
+    "name": "Fictional Account 048",
+    "segment": "Commerce",
+    "observed_tools": [
+      "GitHub",
+      "Jira"
+    ],
+    "protected_tools": [
+      "GitHub"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 30,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "Jira",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether Jira requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-049",
+    "name": "Fictional Account 049",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "Shopify",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "Azure DevOps"
+    ],
+    "inventory_age_days": 14,
+    "renewal_days": 60,
+    "recovery_priority": "High",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "Shopify",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether Shopify requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-050",
+    "name": "Fictional Account 050",
+    "segment": "Consumer brands",
+    "observed_tools": [
+      "Shopify",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "GitHub"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 150,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "Shopify",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-051",
+    "name": "Fictional Account 051",
+    "segment": "Professional services",
+    "observed_tools": [
+      "Shopify",
+      "BigCommerce",
+      "Jira",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "Shopify",
+      "Jira"
+    ],
+    "inventory_age_days": 45,
+    "renewal_days": 150,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Verify context",
+      "candidate": "GitHub",
+      "owner": "Account owner",
+      "next_step": "Confirm account engagement preferences before outreach",
+      "why": "Consent is not confirmed"
+    }
+  },
+  {
+    "id": "RX-052",
+    "name": "Fictional Account 052",
+    "segment": "Commerce",
+    "observed_tools": [
+      "Azure DevOps",
+      "Shopify",
+      "BigCommerce",
+      "GitHub"
+    ],
+    "protected_tools": [
+      "Azure DevOps",
+      "Shopify",
+      "GitHub"
+    ],
+    "inventory_age_days": 30,
+    "renewal_days": 150,
+    "recovery_priority": "Standard",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discovery later",
+      "candidate": "BigCommerce",
+      "owner": "Account owner",
+      "next_step": "Validate whether BigCommerce is business critical at a future check-in",
+      "why": "Observed use is not a qualified sales opportunity"
+    }
+  },
+  {
+    "id": "RX-053",
+    "name": "Fictional Account 053",
+    "segment": "Professional services",
+    "observed_tools": [
+      "BigCommerce",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "BigCommerce"
+    ],
+    "inventory_age_days": 30,
+    "renewal_days": 30,
+    "recovery_priority": "Critical",
+    "consent_to_discuss": true,
+    "assessment": {
+      "level": "Discuss coverage",
+      "candidate": "Azure DevOps",
+      "owner": "Customer Success + Account Manager",
+      "next_step": "Ask whether Azure DevOps requires independent recovery coverage",
+      "why": "Relevant recovery priority and near-term review"
+    }
+  },
+  {
+    "id": "RX-054",
+    "name": "Fictional Account 054",
+    "segment": "Professional services",
+    "observed_tools": [
+      "Jira",
+      "Shopify",
+      "Confluence",
+      "Azure DevOps"
+    ],
+    "protected_tools": [
+      "Confluence",
+      "Jira",
+      "Azure DevOps",
+      "Shopify"
+    ],
+    "inventory_age_days": 70,
+    "renewal_days": 150,
+    "recovery_priority": "High",
+    "consent_to_discuss": false,
+    "assessment": {
+      "level": "Coverage mapped",
+      "candidate": null,
+      "owner": "Customer Success",
+      "next_step": "Confirm coverage still meets recovery needs",
+      "why": "No additional tool observed in synthetic inventory"
+    }
+  }
+]

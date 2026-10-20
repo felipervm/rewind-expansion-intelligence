@@ -1,0 +1,55 @@
+id,fictional_name,assessment,candidate_platform,proposed_owner,next_step,rationale
+RX-001,Northstar Commerce (fictional),Discuss coverage,GitHub,Customer Success + Account Manager,Ask whether GitHub requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-002,Meridian Systems (fictional),Verify context,Jira,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-003,Atlas Retail Group (fictional),Verify context,GitHub,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-004,Fictional Account 004,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-005,Fictional Account 005,Verify context,Jira,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-006,Fictional Account 006,Verify context,Confluence,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-007,Fictional Account 007,Discovery later,BigCommerce,Account owner,Validate whether BigCommerce is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-008,Fictional Account 008,Discovery later,GitHub,Account owner,Validate whether GitHub is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-009,Fictional Account 009,Verify context,Shopify,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-010,Fictional Account 010,Verify context,GitHub,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-011,Fictional Account 011,Discovery later,GitHub,Account owner,Validate whether GitHub is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-012,Fictional Account 012,Discuss coverage,Jira,Customer Success + Account Manager,Ask whether Jira requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-013,Fictional Account 013,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-014,Fictional Account 014,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-015,Fictional Account 015,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-016,Fictional Account 016,Discuss coverage,GitHub,Customer Success + Account Manager,Ask whether GitHub requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-017,Fictional Account 017,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-018,Fictional Account 018,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-019,Fictional Account 019,Discovery later,Confluence,Account owner,Validate whether Confluence is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-020,Fictional Account 020,Discovery later,Shopify,Account owner,Validate whether Shopify is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-021,Fictional Account 021,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-022,Fictional Account 022,Discovery later,GitHub,Account owner,Validate whether GitHub is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-023,Fictional Account 023,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-024,Fictional Account 024,Verify context,GitHub,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-025,Fictional Account 025,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-026,Fictional Account 026,Verify context,Azure DevOps,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-027,Fictional Account 027,Verify context,Jira,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-028,Fictional Account 028,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-029,Fictional Account 029,Verify context,GitHub,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-030,Fictional Account 030,Discuss coverage,Azure DevOps,Customer Success + Account Manager,Ask whether Azure DevOps requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-031,Fictional Account 031,Verify context,GitHub,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-032,Fictional Account 032,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-033,Fictional Account 033,Verify context,GitHub,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-034,Fictional Account 034,Verify context,Jira,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-035,Fictional Account 035,Verify context,Jira,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-036,Fictional Account 036,Discovery later,Azure DevOps,Account owner,Validate whether Azure DevOps is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-037,Fictional Account 037,Verify context,Jira,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-038,Fictional Account 038,Discovery later,Jira,Account owner,Validate whether Jira is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-039,Fictional Account 039,Verify context,Jira,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-040,Fictional Account 040,Verify context,Jira,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-041,Fictional Account 041,Discovery later,Confluence,Account owner,Validate whether Confluence is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-042,Fictional Account 042,Verify context,Confluence,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-043,Fictional Account 043,Verify context,Azure DevOps,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-044,Fictional Account 044,Discovery later,GitHub,Account owner,Validate whether GitHub is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-045,Fictional Account 045,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-046,Fictional Account 046,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
+RX-047,Fictional Account 047,Verify context,Shopify,Customer Success,Revalidate application inventory and coverage status,Information may be outdated
+RX-048,Fictional Account 048,Discuss coverage,Jira,Customer Success + Account Manager,Ask whether Jira requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-049,Fictional Account 049,Discuss coverage,Shopify,Customer Success + Account Manager,Ask whether Shopify requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-050,Fictional Account 050,Verify context,Shopify,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-051,Fictional Account 051,Verify context,GitHub,Account owner,Confirm account engagement preferences before outreach,Consent is not confirmed
+RX-052,Fictional Account 052,Discovery later,BigCommerce,Account owner,Validate whether BigCommerce is business critical at a future check-in,Observed use is not a qualified sales opportunity
+RX-053,Fictional Account 053,Discuss coverage,Azure DevOps,Customer Success + Account Manager,Ask whether Azure DevOps requires independent recovery coverage,Relevant recovery priority and near-term review
+RX-054,Fictional Account 054,Coverage mapped,,Customer Success,Confirm coverage still meets recovery needs,No additional tool observed in synthetic inventory
